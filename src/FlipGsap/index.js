@@ -3,7 +3,7 @@ import gsap from "gsap";
 import { Flip } from "gsap/all";
 import './styles.scss'
 
-// Đăng ký plugin Flip với gasp
+// Đăng ký plugin Flip với gsap
 gsap.registerPlugin(Flip);
 
 const layouts = ["final", "plain", "columns", "grid"];
